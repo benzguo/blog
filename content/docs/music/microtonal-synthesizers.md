@@ -25,7 +25,7 @@ I ended up transposing the tuning slightly from the original, so that A4 is set 
 
 Many hardware synthesizers support custom tunings. I use the [Prophet 12](https://www.sequential.com/product/prophet-12-keyboard).
 
-Loading a custom tuning onto the Prophet was non-trivial. I've put together some documentation here for my future self and the internet. Your mileage may vary: this is based on my vague memories of using niche software 2 years ago, and the [DSI forum post](https://forum.sequential.com/index.php?topic=2187.0) that I originally used as a reference.
+Loading a custom tuning onto the Prophet was non-trivial. Your mileage may vary: this doc is based on my vague memories of using niche software 2 years ago, along with the [DSI forum post](https://forum.sequential.com/index.php?topic=2187.0) that I originally used as a reference.
 
 ### 1. Generate a sysex file
 
