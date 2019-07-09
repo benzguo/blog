@@ -1,10 +1,13 @@
-*2019-07*
+*2019*
 
-Recently, I've been writing microtonal music for synthesizers, using a limited sonic palette. 
+Recently, I've started writing microtonal music for synthesizers, using a limited sonic palette. 
+
+By immersing myself in a single alternate tuning and limiting myself to a few tools, I aspire to write microtonal music that sounds alien and accessible; strange, but constrained to an consistent internal language.
+
 
 ## The Well Tuned Piano
 
-I use a single tuning, a just intonation devised by La Monte Young for his magnum opus, The Well Tuned Piano. Thanks to Kyle Gann, the tuning used in The Well Tuned Piano has been reverse-engineered, confirmed by LMY himself, and documented on [Kyle Gann's site](https://www.kylegann.com/wtp.html).
+I use a just intonation devised by La Monte Young for his magnum opus, The Well Tuned Piano. Thanks to Kyle Gann, the tuning used in The Well Tuned Piano has been reverse-engineered, confirmed by LMY himself, and documented on [Kyle Gann's site](https://www.kylegann.com/wtp.html).
 
 I'm documenting the tuning here for posterity, "in frequency ratios to the tonic E-flat":
 
@@ -13,7 +16,7 @@ I'm documenting the tuning here for posterity, "in frequency ratios to the tonic
 | Ratios | 1/1 | 567/512 | 9/8	| 147/128 | 21/16 | 1323/1024 | 189/128	 | 3/2 | 49/32 | 7/4 | 441/256 | 63/32 |
 
 
-Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's hard to iterate on tunings, since there isn't an easy way to preview them. I recommend using a software synthesizer to test your `.scl` files (more on microtonal soft synths below).
+Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's difficult to iterate on tunings, since there isn't an easy way to preview them. I recommend using a software synthesizer to test your `.scl` files (more on microtonal soft synths below).
 
 I ended up transposing the tuning slightly from the original, so that A4 is set to [A440](https://en.wikipedia.org/wiki/A440_(pitch_standard)). This was a useful modification: since the tuning's pitches now roughly match the layout of 12TET on a keyboard, improvising is more intuitive, and it's possible combine the tuning with 12TET instruments. 
 
