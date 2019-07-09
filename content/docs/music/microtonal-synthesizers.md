@@ -4,7 +4,7 @@ Recently, I've been writing microtonal music for synthesizers, using a limited s
 
 ## The Well Tuned Piano
 
-I use a single tuning, a just intonation devised by La Monte Young for his magnum opus. Thanks to Kyle Gann, the tuning used in The Well Tuned Piano has been reverse-engineered, confirmed by LMY himself, and documented on [Kyle Gann's site](https://www.kylegann.com/wtp.html).
+I use a single tuning, a just intonation devised by La Monte Young for his magnum opus, The Well Tuned Piano. Thanks to Kyle Gann, the tuning used in The Well Tuned Piano has been reverse-engineered, confirmed by LMY himself, and documented on [Kyle Gann's site](https://www.kylegann.com/wtp.html).
 
 I'm documenting the tuning here for posterity, "in frequency ratios to the tonic E-flat":
 
