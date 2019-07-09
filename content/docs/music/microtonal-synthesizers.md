@@ -13,9 +13,9 @@ I'm documenting the tuning here for posterity, "in frequency ratios to the tonic
 | Ratios | 1/1 | 567/512 | 9/8	| 147/128 | 21/16 | 1323/1024 | 189/128	 | 3/2 | 49/32 | 7/4 | 441/256 | 63/32 |
 
 
-Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's hard to iterate on tunings, since there isn't an easy way to preview them. I highly recommend using a software synthesizer to test your `.scl` files (more on microtonal soft synths below).
+Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's hard to iterate on tunings, since there isn't an easy way to preview them. I recommend using a software synthesizer to test your `.scl` files (more on microtonal soft synths below).
 
-I ended up transposing the tuning slightly from the original, so that A4 is set to [A440](https://en.wikipedia.org/wiki/A440_(pitch_standard)). This was a useful modification: since the tuning's pitches now roughly match the layout of 12TET on a keyboard, improvising is more intuitive for me, and it's possible combine the tuning with 12TET instruments.
+I ended up transposing the tuning slightly from the original, so that A4 is set to [A440](https://en.wikipedia.org/wiki/A440_(pitch_standard)). This was a useful modification: since the tuning's pitches now roughly match the layout of 12TET on a keyboard, improvising is more intuitive, and it's possible combine the tuning with 12TET instruments. 
 
 - [Kyle Gann's article on WTP in Perspectives of New Music](https://www.dropbox.com/s/b0d59oa6h0h3e7e/PNM-WellTunedPiano.pdf?dl=0)
 - [Original liner notes for WTP](https://www.dropbox.com/s/j2ukmqiax99vdzd/LinerNotes-WellTunedPiano.pdf?dl=0)
@@ -23,7 +23,9 @@ I ended up transposing the tuning slightly from the original, so that A4 is set 
 
 ## Tuning the Prophet 12
 
-Loading a custom tuning onto the [Prophet 12](https://www.sequential.com/product/prophet-12-keyboard), my hardware synth, was non-trivial. I've put together some documentation here for my future self and the internet. Your mileage may vary: this is based on my vague memories of using niche software 2 years ago, and the [DSI forum post](https://forum.sequential.com/index.php?topic=2187.0) that I originally used as a reference.
+Many hardware synthesizers support custom tunings. I use the [Prophet 12](https://www.sequential.com/product/prophet-12-keyboard).
+
+Loading a custom tuning onto the Prophet was non-trivial. I've put together some documentation here for my future self and the internet. Your mileage may vary: this is based on my vague memories of using niche software 2 years ago, and the [DSI forum post](https://forum.sequential.com/index.php?topic=2187.0) that I originally used as a reference.
 
 ### 1. Generate a sysex file
 
