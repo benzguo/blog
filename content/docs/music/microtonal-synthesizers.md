@@ -1,3 +1,4 @@
+# Microtonal Synthesizers
 *2019*
 
 Recently, I've started writing microtonal music for synthesizers, using a limited sonic palette. 
@@ -16,13 +17,15 @@ I'm documenting the tuning here for posterity, "in frequency ratios to the tonic
 | Ratios | 1/1 | 567/512 | 9/8	| 147/128 | 21/16 | 1323/1024 | 189/128	 | 3/2 | 49/32 | 7/4 | 441/256 | 63/32 |
 
 
-Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's difficult to iterate on tunings, since there isn't an easy way to preview them. I recommend using a software synthesizer to test your `.scl` files (more on microtonal soft synths below).
+Using Kyle Gann's notes, I entered the tuning into [Huygens-Fokker Scala](http://www.huygens-fokker.org/scala/). Scala is hard to use – it's arcane software for a niche user base. It's difficult to iterate on tunings, since there isn't an easy way to preview them. 
+
+I wish I'd used a software synthesizer to test Scala tuning files. Syncing microtuning in a software synth with a hardware synth is tricky, and still warps my brain.
 
 I ended up transposing the tuning slightly from the original, so that A4 is set to [A440](https://en.wikipedia.org/wiki/A440_(pitch_standard)). This was a useful modification: since the tuning's pitches now roughly match the layout of 12TET on a keyboard, improvising is more intuitive, and it's possible combine the tuning with 12TET instruments. 
 
 - [Kyle Gann's article on WTP in Perspectives of New Music](https://www.dropbox.com/s/b0d59oa6h0h3e7e/PNM-WellTunedPiano.pdf?dl=0)
 - [Original liner notes for WTP](https://www.dropbox.com/s/j2ukmqiax99vdzd/LinerNotes-WellTunedPiano.pdf?dl=0)
-- [Transposed WTP Tuning (scala file)](https://www.dropbox.com/s/j559yak0b5n7019/WTP-A440.scl?dl=0)
+- [Transposed WTP Tuning (`.scl` file)](https://www.dropbox.com/s/j559yak0b5n7019/WTP-A440.scl?dl=0)
 
 ## Tuning the Prophet 12
 
@@ -70,3 +73,18 @@ I think this was pretty straightforward, using [SysEx Librarian](https://www.sno
 
 
 ## Microtonal Soft Synths
+
+There are many software synths that support custom tunings. 
+
+In my search, I was specifically looking for a modeling-based synth (no samples) for piano and plucked string sounds. 
+
+- [Pianoteq]()
+
+I also wanted an oscillator-dense synth, capable of producing a convincing trance supersaw.
+
+
+Related links:
+
+- [KVR forum thread, instruments with microtonal support](https://www.kvraudio.com/forum/viewtopic.php?t=497777&start=45)
+- [Xen Wiki, list of microtonal plugins](https://en.xen.wiki/w/List_of_Microtonal_Software_Plugins)
+- [VSTs for microtonal music](https://sevish.com/2014/vsts-for-playing-and-composing-microtonal-music/)
