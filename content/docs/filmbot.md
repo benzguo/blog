@@ -12,5 +12,7 @@ The design of the site is "as primitive as possible", optimized for quick skimmi
 
 The project started as a weekly email digest, a few scripts cobbled together in an evening. When I was living in New York, I'd run the script manually on Monday mornings, sending the digest to a few dozen subscribers.
 
-Now, Filmbot is a static site deployed from GitHub. A nightly cron runs the crawler and pushes html to git. 
+The project has evolved a bit, but is still designed to be "as primitive as possible", optimized for quick skimming, fast iteration, and low maintenance.
+
+The static site (just a few html pages) is auto-deployed by pushes to GitHub. A nightly cron (1am PST) runs the crawler and pushes updated html files.
 
