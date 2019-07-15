@@ -20,7 +20,7 @@ This pattern, a "static cron site", seems like it could be applied to a large se
 
 Quickstart hosting services like [Render](https://render.com/) (which I use for this project) support auto deploys by pulling from GitHub, but don't support pushing to GitHub. This isn't very hard to set up via the GitHub API, but it would have been nice to be able to set up "auto-push" at the end of running a cron job. 
 
-I think there may something worth exploring here: if you could make scraping the web and creating digests more accessible, is there a set of useful community tools that would emerge organically? 
+I think there's a larger idea here that may be worth exploring. The internet of today does little to provide online infrastructure for local communities. If you could make scraping the web and creating digests more accessible, would a set of useful tools emerge organically? 
 
 - [Scrapy](https://scrapy.org/)
 - [Why isn't the internet more fun and weird?](https://jarredsumner.com/codeblog/)
