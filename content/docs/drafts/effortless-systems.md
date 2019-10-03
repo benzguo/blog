@@ -13,3 +13,5 @@ Examples:
 - Forms with required fields that provide smart defaults or helpful suggestions. 
 - Navigation that preserves important previous context without cluttering your field of view. 
 - Organizational process that doesn't get in the way of progress.
+
+[...]
